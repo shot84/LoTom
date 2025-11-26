@@ -26,6 +26,30 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        cmd+option+u {
+            bindings = <&kt LG(LA(U))>;
+            key-positions = <9 10>;
+        };
+
+        cmd+t {
+            bindings = <&kp LG(T)>;
+            key-positions = <6 5>;
+        };
+
+        cmd+w {
+            bindings = <&kp W>;
+            key-positions = <3 2>;
+        };
+
+        cmd+f {
+            bindings = <&kp F>;
+            key-positions = <18 17>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
