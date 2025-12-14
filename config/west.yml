@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: te9no
       url-base: https://github.com/te9no
+    - name: prospector  # <-- Prospector Scanner
+      url-base: https://github.com/t-ogura 
   projects:
     - name: zmk
       remote: zmkfirmware
