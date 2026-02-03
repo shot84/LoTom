@@ -134,7 +134,7 @@
             bindings = <
 &trans                &trans
 &kp TAB               &kp NUMBER_7  &kp NUMBER_8  &kp N9        &kp MINUS  &trans         &trans          &kp LC(LEFT)           &kp LC(RIGHT)  &kp LC(UP_ARROW)  &kp LC(DOWN)  &kp LS(LC(LG(Z)))
-&kp N0                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SEMI   &trans         &kp UNDERSCORE  &kp LG(RIGHT_BRACKET)  &kp LG(C)      &kp UP_ARROW      &kp LG(V)     &kp PERCENT
+&kp N0                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp COLON  &trans         &kp UNDERSCORE  &kp LG(RIGHT_BRACKET)  &kp LG(C)      &kp UP_ARROW      &kp LG(V)     &kp PERCENT
 &mt LEFT_SHIFT SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BSLH   &kp EQUAL      &kp PLUS        &kp LG(LEFT_BRACKET)   &kp LEFT       &kp DOWN          &kp RIGHT     &kp BACKSLASH
 &kp LCTRL             &kp LSHFT     &kp LALT      &kp LGUI      &trans     &kp LS(LC(S))  &trans          &kp LC(Q)              &kp LG(SPACE)  &kp PIPE
             >;
@@ -147,7 +147,7 @@
 &trans                &trans
 &kp ESCAPE            &kp F2             &kp LC(LA(LEFT_ARROW))  &kp LA(LC(RIGHT))     &kp PIPE               &trans         &trans         &kp LA(LC(D))     &kp LC(LA(E))      &kp LA(LC(F))  &kp LA(LC(T))     &kp LA(LC(G))
 &kp TAB               &kp DOUBLE_QUOTES  &kp AMPERSAND           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans         &trans         &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SQT        &kp LG(LS(DOWN))  &kp LC(LA(ENTER))
-&mt LEFT_SHIFT ENTER  &kp PLUS           &kp EXCLAMATION         &kp QUESTION          &kp TILDE              &kp LG(LS(V))  &kp LA(LG(V))  &kp LG(A)         &kp LG(C)          &kp LG(V)      &kp LS(Q)         &kp LG(PLUS)
+&mt LEFT_SHIFT ENTER  &kp PLUS           &kp EXCLAMATION         &kp QUESTION          &kp TILDE              &kp LG(LS(V))  &kp LA(LG(V))  &kp LG(A)         &kp LG(C)          &kp LG(V)      &kp LC(Q)         &kp LG(PLUS)
 &kp LCTRL             &trans             &kp AT_SIGN             &kp EQUAL             &trans                 &trans         &kp DELETE     &trans            &sk LG(SPACE)      &kp LG(MINUS)
             >;
 
